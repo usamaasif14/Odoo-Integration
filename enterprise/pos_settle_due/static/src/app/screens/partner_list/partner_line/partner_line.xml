@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <t t-name="CustomDropdownItems">
+        <t t-set="_partnerInfos" t-value="this.partnerInfos"/>
+        <t t-if="_partnerInfos.totalDue gt 0">
+            <t t-if="_partnerInfos.posOrdersAmountDue gt 0">
+                <DropdownItem onSelected="() => this.settleCustomerDue()">
+                    Settle orders
+                </DropdownItem>
+            </t>
+            <t t-if="_partnerInfos.invoicesAmountDue gt 0">
+                <DropdownItem onSelected="() => this.settleCustomerInvoices()">
+                    Settle invoices
+                </DropdownItem>
+            </t>
+            <t t-if="_partnerInfos.remainingDue gt 0">
+                <DropdownItem t-if="this.payLaterPaymentExists()" onSelected="() => this.depositMoney(_partnerInfos.remainingDue)">
+                    Settle due amount
+                </DropdownItem>
+            </t>
+        </t>
+        <t t-else="">
+            <DropdownItem t-if="this.payLaterPaymentExists()" onSelected="() => this.depositMoney()">
+                Deposit money
+            </DropdownItem>
+        </t>
+    </t>
+
+    <t t-name="pos_settle_due.PartnerLine" t-inherit="point_of_sale.PartnerLine" t-inherit-mode="extension">
+        <xpath expr="//td[hasclass('partner-line-balance')]" position="inside">
+            <t t-set="_partnerInfos" t-value="this.partnerInfos"/>
+            <div t-att-class="{'partner-credit-limit-reached': _partnerInfos.overDue and this.props.isSelected and _partnerInfos.creditLimit > 0}" class="partner-due pos-right-align">
+                <t t-if="_partnerInfos.totalDue != 0 and this.pos.cashier._role !== 'minimal'">
+                    <span t-if="_partnerInfos.totalDue gt 0">
+                        Total due: <t t-esc="env.utils.formatCurrency(_partnerInfos.totalDue)"/>
+                    </span>
+                    <span t-elif="_partnerInfos.totalDue lt 0">
+                        Deposited: <t t-esc="env.utils.formatCurrency(-_partnerInfos.totalDue)"/>
+                    </span>
+                </t>
+                <span t-if="this.props.isSelected and _partnerInfos.useLimit">(with cart: <t t-esc="env.utils.formatCurrency(_partnerInfos.totalWithCart)" />)</span>
+                <span t-if="_partnerInfos.useLimit">Credit limit: <t t-esc="env.utils.formatCurrency(_partnerInfos.creditLimit)"/></span>
+            </div>
+        </xpath>
+
+        <xpath expr="//DropdownItem[last()]" position="after">
+            <t t-call="CustomDropdownItems"/>
+        </xpath>
+        <xpath expr="//td[hasclass('edit-partner-button-cell')]//DropdownItem[last()]" position="after">
+            <t t-call="CustomDropdownItems"/>
+        </xpath>
+    </t>
+ </templates>

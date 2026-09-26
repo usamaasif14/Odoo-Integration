@@ -1,0 +1,663 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * spreadsheet_dashboard_stock
+#
+# "Tiffany Chang (tic)" <tic@odoo.com>, 2025.
+# Žiga Trček <ziga.trcek@implex.si>, 2026.
+# Jan Zorko <jan.zorko@implex.si>, 2026.
+# NEDŽAD BEUS <nedzad.beus@implex.si>, 2026.
+# Nedžad Beus <nedzad.beus@implex.si>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-30 18:48+0000\n"
+"PO-Revision-Date: 2026-09-14 17:33+0000\n"
+"Last-Translator: Nedžad Beus <nedzad.beus@implex.si>\n"
+"Language-Team: Slovenian <https://translate.odoo.com/projects/odoo-19/"
+"spreadsheet_dashboard_stock/sl/>\n"
+"Language: sl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
+"n%100==4 ? 2 : 3;\n"
+"X-Generator: Weblate 2026.8.1\n"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_sample_dashboard.json:0
+msgid "All / Rental"
+msgstr "Vse / Najem"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_sample_dashboard.json:0
+msgid "All / Saleable"
+msgstr "Vse / Prodajno"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_sample_dashboard.json:0
+msgid "All / Saleable / Office Furniture"
+msgstr "Vse / Prodajno / Pisarniško pohištvo"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_sample_dashboard.json:0
+msgid "Amazon"
+msgstr "Amazon"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_sample_dashboard.json:0
+msgid "Apple Pie"
+msgstr "Jabolčna pita"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_sample_dashboard.json:0
+msgid "Avg  Delay"
+msgstr "Povprečna zamuda"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_sample_dashboard.json:0
+msgid "Avg Cycle Time"
+msgstr "Povprečni čas cikla"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "Avg Lead Time"
+msgstr "Povprečni dobavni čas"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_sample_dashboard.json:0
+msgid "Bagel"
+msgstr "Štručka"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_sample_dashboard.json:0
+msgid "BlueWave Solar"
+msgstr "BlueWave Solar"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_sample_dashboard.json:0
+msgid "Cabinet with Doors"
+msgstr "Omara z vrati"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "Categories"
+msgstr "Kategorije"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_dashboard.json:0
+msgid "Contact"
+msgstr "Stik"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_sample_dashboard.json:0
+msgid "Count orders on time"
+msgstr "Število pravočasnih naročil"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_sample_dashboard.json:0
+msgid "Current"
+msgstr "Trenutno"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "Current period"
+msgstr "Trenutno obdobje"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "Current period reworked"
+msgstr "Trenutno obdobje predelano"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_sample_dashboard.json:0
+msgid "Customer"
+msgstr "Stranka"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_sample_dashboard.json:0
+msgid "Cycle Time (Days)"
+msgstr "Čas cikla (dnevi)"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "Cycle time Current period"
+msgstr "Čas cikla Trenutno obdobje"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_sample_dashboard.json:0
+msgid "Delay (Days)"
+msgstr "Zamuda (dnevi)"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_sample_dashboard.json:0
+msgid "Deliveries next 7 days"
+msgstr "Dostave v naslednjih 7 dneh"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_sample_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_sample_dashboard.json:0
+msgid "Delivery Orders"
+msgstr "Dobavni nalogi"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_sample_dashboard.json:0
+msgid "Demand"
+msgstr "Povpraševanje"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_sample_dashboard.json:0
+msgid "Departmental Transfer"
+msgstr "Prenos med oddelki"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_dashboard.json:0
+msgid "Destination locations"
+msgstr "Ciljne lokacije"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_sample_dashboard.json:0
+msgid "Drawer"
+msgstr "Predal"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_sample_dashboard.json:0
+msgid "Elisabeth Wild"
+msgstr "Elisabeth Wild"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_sample_dashboard.json:0
+msgid "Fill rate"
+msgstr "Stopnja izpolnitve"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_sample_dashboard.json:0
+msgid "Fill rate sort by Top Demand"
+msgstr "Stopnja izpolnitve, razvrsti po največjem povpraševanju"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_sample_dashboard.json:0
+msgid "Internal Transfers"
+msgstr "Interni prenosi"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_sample_dashboard.json:0
+msgid "Internal lead time"
+msgstr "Notranji dobavni rok"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_sample_dashboard.json:0
+msgid "John Stones"
+msgstr "John Stones"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_sample_dashboard.json:0
+msgid "Julia Denver"
+msgstr "Julia Denver"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_sample_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_sample_dashboard.json:0
+msgid "KPI"
+msgstr "KPI"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_sample_dashboard.json:0
+msgid "Late deliveries"
+msgstr "Pozne dostave"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_sample_dashboard.json:0
+msgid "Late internal transfer"
+msgstr "Pozni notranji prenos"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_sample_dashboard.json:0
+msgid "Late internal transfers"
+msgstr "Pozni notranji prenosi"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_sample_dashboard.json:0
+msgid "Late receptions"
+msgstr "Pozna potrdila"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_sample_dashboard.json:0
+msgid "Location Transfer"
+msgstr "Prenos lokacije"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_sample_dashboard.json:0
+msgid "Manufacturing"
+msgstr "Proizvodnja"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_sample_dashboard.json:0
+msgid "Moves lines count by operation"
+msgstr "Število vrstic premikov po operaciji"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_sample_dashboard.json:0
+msgid "Multigrain Bread"
+msgstr "Večzrnati kruh"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "Number of Operations by Operation Type"
+msgstr "Število operacij glede na vrsto operacije"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_sample_dashboard.json:0
+msgid "Nvidia"
+msgstr "Nvidia"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_sample_dashboard.json:0
+msgid "Office Chair Black"
+msgstr "Črn pisarniški stol"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "On Time Operations"
+msgstr "Pravočasne operacije"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_sample_dashboard.json:0
+msgid "On Time delivery"
+msgstr "Pravočasna dostava"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_sample_dashboard.json:0
+msgid "On time deliveries"
+msgstr "Pravočasne dobave"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_sample_dashboard.json:0
+msgid "On time rate sort by Top Demand"
+msgstr "Stopnja pravočasnosti, razvrsti po največjem povpraševanju"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_sample_dashboard.json:0
+msgid "Open deliveries to date"
+msgstr "Odprte dobave do danes"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_sample_dashboard.json:0
+msgid "Open internal transfers to date"
+msgstr "Odprti interni prenosi do danes"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_sample_dashboard.json:0
+msgid "Open late deliveries"
+msgstr "Odprte pozne dostave"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_sample_dashboard.json:0
+msgid "Open late internal transfers"
+msgstr "Odpri pozne notranje prenose"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_sample_dashboard.json:0
+msgid "Open late receipts"
+msgstr "Odprti zamujeni prejemi"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_sample_dashboard.json:0
+msgid "Open receptions to date"
+msgstr "Odprti prevzemi do danes"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_sample_dashboard.json:0
+msgid "Open transfers to date"
+msgstr "Odprti prenosi do danes"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_sample_dashboard.json:0
+msgid "OpenAI"
+msgstr "OpenAI"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "Operation"
+msgstr "Postopek"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_dashboard.json:0
+msgid "Operation Type"
+msgstr "Tip operacije"
+
+#. module: spreadsheet_dashboard_stock
+#: model:spreadsheet.dashboard,name:spreadsheet_dashboard_stock.spreadsheet_dashboard_inventory_flow
+msgid "Operation analysis"
+msgstr "Analiza operacij"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "Operation name"
+msgstr "Ime operacije"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "Operations"
+msgstr "Operacije"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "Orders count"
+msgstr "Število naročil"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_sample_dashboard.json:0
+msgid "Pack"
+msgstr "Paket"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_sample_dashboard.json:0
+msgid "Patagonia"
+msgstr "Patagonia"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "Period"
+msgstr "Obdobje"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_sample_dashboard.json:0
+msgid "Pick"
+msgstr "Zbiranje"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_sample_dashboard.json:0
+msgid "PoS Orders"
+msgstr "POS nalogi"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_sample_dashboard.json:0
+msgid "Previous"
+msgstr "Nazaj"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "Previous period"
+msgstr "Prejšnje obdobje"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "Previous period reworked"
+msgstr "Predelano v prejšnjem obdobju"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_dashboard.json:0
+msgid "Product"
+msgstr "Proizvod"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "Product Category"
+msgstr "Kategorija proizvoda"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_sample_dashboard.json:0
+msgid "Qty scrapped product by category"
+msgstr "Količina izločenih izdelkov po kategoriji"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_sample_dashboard.json:0
+msgid "Quantity"
+msgstr "Količina"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_sample_dashboard.json:0
+msgid "Quantity of stock adjustments by category"
+msgstr "Količina prilagoditev zaloge po kategoriji"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_sample_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_sample_dashboard.json:0
+msgid "Receipts"
+msgstr "Prevzemi"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_sample_dashboard.json:0
+msgid "Receptions next 7 days"
+msgstr "Prejemi v naslednjih 7 dneh"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_sample_dashboard.json:0
+msgid "Repairs"
+msgstr "Popravila"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_sample_dashboard.json:0
+msgid "Responsible"
+msgstr "Odgovoren"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_sample_dashboard.json:0
+msgid "Rivian"
+msgstr "Rivian"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_sample_dashboard.json:0
+msgid "Scheduled on"
+msgstr "Načrtovano na"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_sample_dashboard.json:0
+msgid "Slack Technologies"
+msgstr "Slack Technologies"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_dashboard.json:0
+msgid "Source location"
+msgstr "Izvorna lokacija"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_sample_dashboard.json:0
+msgid "Storage"
+msgstr "Shramba"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_sample_dashboard.json:0
+msgid "Test Batch Product"
+msgstr "Testni paketni izdelek"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_sample_dashboard.json:0
+msgid "Total orders"
+msgstr "Skupno število naročil"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_sample_dashboard.json:0
+msgid "Transfer"
+msgstr "Prenos"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_sample_dashboard.json:0
+msgid "Transfer to be assigned"
+msgstr "Prenos, ki ga je treba dodeliti"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_sample_dashboard.json:0
+msgid "Transfers count by responsible and operation"
+msgstr "Število prenosov po odgovorni osebi in operaciji"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_sample_dashboard.json:0
+msgid "Vendor"
+msgstr "Dobavitelj"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "Warehouse"
+msgstr "Skladišče"
+
+#. module: spreadsheet_dashboard_stock
+#: model:spreadsheet.dashboard,name:spreadsheet_dashboard_stock.spreadsheet_dashboard_warehouse_operations
+msgid "Warehouse Daily Operations"
+msgstr "Dnevne operacije v skladišču"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_sample_dashboard.json:0
+msgid "Warehouse-to-Warehouse Transfer"
+msgstr "Prenos med skladišči"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_sample_dashboard.json:0
+msgid "Weekly Stock Moves Lines by operation"
+msgstr "Tedenske vrstice premikov zaloge po operaciji"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_sample_dashboard.json:0
+msgid "[E-COM11] Cabinet with Doors"
+msgstr "[E-COM11] Omara z vrati"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_sample_dashboard.json:0
+msgid "[FURN_0269] Office Chair Black"
+msgstr "[FURN_0269] Črni pisarniški stol"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_sample_dashboard.json:0
+msgid "[FURN_8855] Drawer"
+msgstr "[FURN_8855] Predal"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_sample_dashboard.json:0
+msgid "last period"
+msgstr "zadnje obdobje"
